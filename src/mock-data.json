@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Cristiano",
+        "Country": "Portugal",
+        "Club": "Real Madrid",
+        "Position": "Right Wing Forward"
+    },
+    {
+        "id": 2,
+        "name": "Lionel Messi",
+        "Country": "Argentina",
+        "Club": "Barca",
+        "Position": "Attacking Mildfielder"
+    },
+    {
+        "id": 3,
+        "name": "Kylian Mbape",
+        "Country": "France",
+        "Club": "PSG",
+        "Position": "Center Forward"
+    }
+]
