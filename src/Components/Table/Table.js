@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import classes from './Table.module.css'
+import classes from './Table.css'
 import { nanoid } from 'nanoid'
 import Data from '../mock-data.json'
 
@@ -41,7 +41,7 @@ const Table = () => {
 
   return (
     <div className={classes.tableContainer}>
-        <form>
+        <form onSubmit={formSubmitHandler}>
         <table>
             <thead>
                 <tr>
