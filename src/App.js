@@ -47,8 +47,8 @@ function App() {
             <tr>
               <th>Name</th>
               <th>Country</th>
-              <th>Phone Number</th>
-              <th>Email</th>
+              <th>Club</th>
+              <th>Position</th>
               <th>Actions</th>
             </tr>
           </thead>
