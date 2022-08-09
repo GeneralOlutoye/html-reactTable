@@ -11,7 +11,7 @@ const Table = () => {
         Club: '',
         Position: ''
     })
-
+console.log(typeof(playerData));
     const addFormChangeHandler =(event)=>{
         event.preventDefault();
 
@@ -41,7 +41,7 @@ const Table = () => {
 
   return (
     <div className={classes.tableContainer}>
-        <form onSubmit={formSubmitHandler}>
+        <form>
         <table>
             <thead>
                 <tr>
@@ -53,11 +53,11 @@ const Table = () => {
             </thead>
             <tbody>
                 {playerData.map((player)=>(
-                <tr>
-                    <td>{player.name}</td>
-                    <td>{player.Country}</td>
-                    <td>{player.Club}</td>
-                    <td>{player.Position}</td>
+                <tr key={player.id}>
+                    <td key={player.id}>{player.name}</td>
+                    <td key={player.Country}>{player.Country}</td>
+                    <td key={player.Club}>{player.Club}</td>
+                    <td key={player.Position}>{player.Position}</td>
                 </tr>
                 ))}
             </tbody>
